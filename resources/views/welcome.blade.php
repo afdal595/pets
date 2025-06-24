@@ -15,6 +15,7 @@
                 <i class="fas fa-paw text-6xl mb-6 text-white/90"></i>
                 <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Pet Guild</h1>
                 <p class="text-xl md:text-2xl text-white/80 mb-8">Sistem Informasi Hewan Peliharaan Terlengkap</p>
+                <p class="text-xl md:text-2xl text-white/80 mb-8">DIBUAT OLEH M.AFDHAL HAMDAN AL-JAEDY</p>
                 
                 <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
                     <a href="{{ route('home') }}" 
