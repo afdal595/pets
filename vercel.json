@@ -8,22 +8,22 @@
         }
     },
     "outputDirectory": "public",
-    "routes": [
-        {
-            "src": "/(css|js|images|build)/(.*)",
-            "dest": "/public/$1/$2"
+    "rewrites": [
+        { 
+            "source": "/(css|js|images|build)/(.*)",
+            "destination": "/public/$1/$2"
         },
         {
-            "src": "/(favicon\\.ico|robots\\.txt|manifest\\.json)",
-            "dest": "/public/$1"
+            "source": "/(favicon\\.ico|robots\\.txt|manifest\\.json)",
+            "destination": "/public/$1"
         },
         {
-            "src": "/(.*)\\.(.+)",
-            "dest": "/public/$1.$2"
+            "source": "/(.*)\\.(.+)",
+            "destination": "/public/$1.$2"
         },
         {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
+            "source": "/(.*)",
+            "destination": "/api/index.php"
         }
     ],
     "env": {
